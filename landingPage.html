@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intranet Colegio USMP</title>
+    <title>Landing Page - Helados</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-</head>
+
+        
+    </head>
 
 <body>
 
@@ -18,7 +20,7 @@
             <div class="col">
 
                 <form action="procesarRegistro.html" method="post">
-                    <h1>Registro de Padres de Familia</h1>
+                    <h1>Formulario de Participacion</h1>
                     <div class="form-group">
                         <label for="">DNI:</label>
                         <input type="text" name="dni" id="" class="form-control">
@@ -28,19 +30,19 @@
                         <input type="text" name="nombre" id="" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="">Apellido Paterno:</label>
-                        <input type="text" name="ApellidoPat" id="" class="form-control">
+                        <label for="">Apellidos :</label>
+                        <input type="text" name="apellidos" id="" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="">Apellido Materno:</label>
-                        <input type="text" name="ApellidoMat" id="" class="form-control">
+                        <label for=""> Direccion de Envio :</label>
+                        <input type="text" name="direccion" id="" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="">Relacion :</label>
-                        <select name="relacion" id="" class="form-control">
-                            <option value="P">Padre</option>
-                            <option value="M">Madre</option>
-                            <option value="A">Apoderado</option>
+                        <label for="">Sabor Preferido:</label>
+                        <select name="sabor" id="" class="form-control">
+                            <option value="C">Chocolate</option>
+                            <option value="F">Fresa</option>
+                            <option value="T">TriColor</option>
                         </select>
                     </div>
 
@@ -49,32 +51,31 @@
                         <input type="text" name="email" id="" class="form-control">                  
                     </div>
 
-                    <h4>Hijos en el Colegio</h4>
-                    <div class="form-group">
-                        <label for="">Hijo 1:</label>
-                        <input type="text" name="hijo1" id="" >
-                        <label for="">Año de Ingreso :</label>
-                        <input type="text" name="aning1" id="">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Hijo 2:</label>
-                        <input type="text" name="hijo2" id="">
-                        <label for="">Año de Ingreso :</label>
-                        <input type="text" name="aning2" id="">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Hijo 3:</label>
-                        <input type="text" name="hijo3" id="">
-                        <label for="">Año de Ingreso :</label>
-                        <input type="text" name="aning3" id="">
-                    </div>
                     <div class="form-group">
                         <button class="btn btn-primary">Registrar</button>
                     </div>
                 </form>
 
             </div>
-            <div class="col"></div>
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                   
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="foto1.png" class="d-block w-100" alt="0">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="foto2.png" class="d-block w-100" alt="1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="foto3.png" class="d-block w-100" alt="2">
+                      </div>
+                    </div>
+                   
+                </div>
+
+
+            </div>
         </div>
 
 
@@ -89,6 +90,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
+
+    
 </body>
 
 </html>
